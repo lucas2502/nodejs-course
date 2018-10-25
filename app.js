@@ -5,7 +5,7 @@ var rotaHome = require('./app/routes/home');
 
 rotaNoticias(app);
 rotaFormulario(app);
-rotaHome(app);
+rotaHome(app); 
 
 app.listen(3000, function(){
     console.log("start server");
