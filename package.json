@@ -18,6 +18,7 @@
   "homepage": "https://github.com/lucas2502/nodejs-course#readme",
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "node": "^11.0.0"
   }
 }
