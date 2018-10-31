@@ -7,7 +7,18 @@
     <title>Formulario Inclusão Noticias</title>
 </head>
 <body>
-    <h1>Formulario Inclusão Noticias</h1>
+    <h1>Inclusão Noticias</h1>
+    <br />
+
+    <form action="/noticias/salvar" method="post">
+        <label>Titulo</label>
+        <input type="text" id="titulo" name="titulo" placeholder="Titulo da noticia"/>
+        <br/>
+        <label>Noticia</label>
+        <textarea name="noticia" id="noticia" cols="30" rows="5"></textarea>
+        <br/>
+        <input type="submit" value="Send" />
+    </form>
     
 </body>
 </html>
