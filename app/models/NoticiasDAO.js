@@ -11,10 +11,11 @@ NoticiasDAO.prototype.getNoticia = function(callback){
 };
 
 NoticiasDAO.prototype.salvarNoticias = function( noticia,callback){
+    console.log(noticia);
     this._connection.query('insert into noticias ?', noticia, callback);
 };
 
 
 module.exports = function(){
     return NoticiasDAO;
-};
+}; 
