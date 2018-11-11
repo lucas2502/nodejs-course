@@ -1,6 +1,7 @@
 module.exports = function(application){
 
 application.get('/', function(req, res){
-    res.send('teste');
+    application.app.controllers.index.home(application, res, res);
+    //res.render('index'); => to move ./controllers/index.js
 })
 }
